@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.profile-container {
+    padding: 20px;
+    margin-top: 50px;
+    min-height: 70vh;
+    width: 100%;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .profile-container h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-left: 500px;}
+  
+  .profile-container p {
+    margin: 10px 0; 
+  }
+  
+  .profile-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-container li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .profile-avatar {
+    width: 310px;
+    height: auto;
+    border-radius: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .profile-details p {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0; /* Adiciona espaço entre os parágrafos */
+    color: #555; /* Adiciona cor ao texto */
+  }
+
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-top: 150px;
+    margin-left: 400px;
+    font-size: 30px;
+  }
+
+  .profile-info {
+    flex: 1;
+  }
+
+  .profile-avatar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    float: right;
+    height: 40px; /* Ajuste conforme necessário */
+    margin: 0 30px; 
+  }
+  

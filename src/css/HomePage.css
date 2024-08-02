@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* Estilos gerais da página */
+* {
+    box-sizing: border-box;
+  }
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #FBD542;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  min-height: calc(100vh - 30px);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo-container {
+    align-items: right;
+}
+
+.logo {
+margin-left: 1100px;
+  max-width: 25%;
+  height: auto;
+}
+
+.slogan-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 2;
+  margin-right: 20px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.slogan-part {
+  font-family: 'Fredoka One', cursive;
+  font-size: 150px;
+  color: #FC0808;
+  margin: 10px 0;
+}
+
+.slogan-part.learn {
+  opacity: 0.33;
+}
+
+.slogan-part.trade {
+  opacity: 0.66;
+}
+
+.slogan-part.succeed {
+  opacity: 0.99;
+}
+
+.get-started-button {
+  margin-top: 80px;
+  margin-left: 160px;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  background-color: red;
+}
+
+.description-container {
+  color: white;
+  font-size: 49px;
+  font-weight: bold;
+  margin-left: 250px;
+  margin-right: 150px;
+  margin-top: 30px;
+  flex: 1;
+  display: flex;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    float: right;
+    height: 40px; /* Ajuste conforme necessário */
+    margin: 0 30px; 
+  }

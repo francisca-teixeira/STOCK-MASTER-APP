@@ -1,0 +1,26 @@
+.meme-container {
+        padding: 20px;
+        margin-top: 50px;
+        min-height: 70vh;
+        width: 100%;
+        background-color: #F7F7F7;
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        position: relative;
+  }
+  
+  .meme-stonks {
+    width: 1000px; 
+    height: auto; 
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 120px;
+  }
+
+  .meme-container h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute
+  }
